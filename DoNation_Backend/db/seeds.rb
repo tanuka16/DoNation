@@ -1,14 +1,35 @@
 
 require "rest-client"
+require 'json'
 
 headers = { Authorization: "Bearer 4358bc9f8ef4b32721646390d51614b9" }
 response = RestClient.get(
   "https://api-staging.pledgeling.com/v1/organizations/",
   headers
 )
-# array of objects convert to charity 
-response.results
+# array of objects convert to charity
+hash = JSON.parse(response)
 
+
+x = hash["results"].map do |org|
+  # create version of the charities
+  Charity.create({
+      name: org['name'],
+      mission: org['mission'],
+      city: org['city'],
+      country: org['country'],
+      website_url: org['website_url'],
+      logo_url: org['logo_url']
+    })
+end
+
+# byebug
+
+# puts "woohooo"
+
+ # migrate before the seeding
+ # change tables and re-seed database
+ # hide the key
 
 #
 # Charity1 = Charity.create(name: 'CureDuchenne', state:'Connecticut', category: 'Health', img_url: "Cure_Duchenne.png", description: 'CureDuchenne breaks the traditional charitable mold and balances passion with business acumen. Our innovative venture philanthropy model funds groundbreaking research, early diagnosis and treatment access. With pioneering education and support programs, our organization drives real change for those with Duchenne muscular dystrophy and their loved ones.', website_url:"https://www.cureduchenne.org/")
