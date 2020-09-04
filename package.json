@@ -4,8 +4,11 @@
     "semantic-ui-react": "^0.87.3"
   },
   "name": "donation_backend",
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
+  "engines":{
+    "node": "12.2.0"
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
