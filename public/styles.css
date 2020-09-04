@@ -1,0 +1,179 @@
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #85FFBD 50%, #21D4FD 50%);
+  /* background-color: #21D4FD; */
+/* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
+
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.main-title{
+  font-size: 50px;
+  text-align: left;
+  position: absolute;
+  left: 10%;
+  /* margin-left: -150px; */
+}
+
+
+#myDiv{
+  /* display: grid; */
+  width: 80%;
+  padding: 40px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 10px;
+  align: center;
+  position: relative;
+  left: 80px;
+}
+#img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 90px;
+  width: 200;
+  margin-bottom: 100px;
+  padding: 10px;
+  float: left;
+}
+.card-text{
+  padding-left: 100px;
+  text-align: left;
+  margin-right: 150px;
+  margin-left: 80px ;
+  /* text-indent: 50px; */
+  font-style: oblique;
+}
+.card-title{
+  text-align: justify;
+  font-size: 30px;
+}
+
+/* navbar style starts here */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #3366ff;
+
+}
+.navbar a {
+  display: flex;
+  float: right;
+  padding: 25px;
+  color: white;
+  text-decoration-color:
+  font-size: 17px;
+
+  /* justify-content: space-around */
+}
+
+.navbar a:hover {
+  background-color: #0080FF;
+}
+
+
+.active {
+  background-color: #ff6633;
+}
+
+
+/* navbar style ends here */
+/* Carousel */
+/* .carousel{
+  animation:fade 2s infinite;
+} */
+
+/* end of carousel */
+
+/* login & signup */
+.form-inline {
+  /* display: flex; */
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+#label {
+  margin: 5px 10px 5px 0;
+  padding: 12px;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+}
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* end login & signup */
+.filtercity{
+  padding: 15px;
+}
+.filtercountry{
+  padding: 15px;
+}
+.welcome{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  color: blue;
+}
