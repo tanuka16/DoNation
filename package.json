@@ -2,5 +2,20 @@
   "dependencies": {
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.87.3"
-  }
+  },
+  "name": "donation_backend",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "npm run build && npm run deploy && echo 'Client built complete!'"
+  },
+  "author": "",
+  "license": "ISC"
 }
