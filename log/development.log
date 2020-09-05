@@ -670,3 +670,730 @@ Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 3.0ms | Allocations: 602
 Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 2.1ms | Allocations: 6408)
 
 
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:02:58 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 31ms (Views: 26.6ms | ActiveRecord: 1.4ms | Allocations: 5610)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:03:05 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:04:29 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 1.4ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:04:50 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.8ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:05:02 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.9ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:05:18 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (2.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 2.4ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:06:37 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:06:53 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:07:28 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:09:53 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:10:00 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:10:21 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.9ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:10:51 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.7ms | Allocations: 5552)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:13:30 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.1ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 34ms (Views: 29.1ms | ActiveRecord: 1.1ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:14:23 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:14:45 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.1ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 1.1ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:14:56 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:15:10 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.8ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:15:25 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:15:34 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:15:49 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:16:07 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:16:16 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:16:53 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:17:11 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:17:14 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:17:26 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 1.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:19:12 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:19:17 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:23:13 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:23:35 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 168ms (Views: 166.4ms | ActiveRecord: 0.7ms | Allocations: 5552)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:23:44 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (5.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 11.5ms | ActiveRecord: 5.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:24:04 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:24:47 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 1.8ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:25:48 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (3.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 3.3ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:26:00 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:26:18 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 1.3ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:26:57 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.2ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 1.2ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:27:23 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.0ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 1.0ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:27:48 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:27:51 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:28:32 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:29:14 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:29:43 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:29:49 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:29:54 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:30:32 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:30:45 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (17.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 34ms (Views: 16.3ms | ActiveRecord: 17.8ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:30:49 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:31:06 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.7ms | Allocations: 5552)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:31:21 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.5ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 1.5ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:32:38 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:33:22 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:33:37 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:33:52 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:34:20 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:34:25 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:35:06 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:36:21 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:36:35 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 1.3ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:37:32 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:38:22 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:38:53 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:40:42 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.8ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:40:52 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.9ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:41:08 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 1.4ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:41:33 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.7ms | Allocations: 5554)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:41:44 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.9ms | Allocations: 5552)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:42:09 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.5ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 1.5ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:42:24 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:42:34 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.5ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 1.5ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:43:01 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (3.5ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 11.9ms | ActiveRecord: 3.5ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:43:09 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:43:39 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:43:44 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.0ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 1.0ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:43:59 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 1.3ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:05 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:14 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:30 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.8ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:35 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.2ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 1.2ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:40 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:45 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:51 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 1.3ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:44:55 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:00 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:05 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.8ms | Allocations: 5552)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:10 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:14 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:22 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (10.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 9.4ms | ActiveRecord: 10.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:28 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:40 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (3.2ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 3.2ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:45:45 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:46:06 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:46:15 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.6ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:46:45 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.9ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:46:54 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (9.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 10.0ms | ActiveRecord: 9.9ms | Allocations: 5549)
+
+
+Started POST "/login" for ::1 at 2020-09-05 13:47:21 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"romi", "password"=>"[FILTERED]", "auth"=>{"username"=>"romi", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "romi"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+Completed 200 OK in 271ms (Views: 0.7ms | ActiveRecord: 1.4ms | Allocations: 866)
+
+
+Started POST "/api/v1/donations" for ::1 at 2020-09-05 13:47:30 -0400
+Processing by Api::V1::DonationsController#create as JSON
+  Parameters: {"token"=>{"id"=>"tok_1HO5U4AGocA737x75K9rtqeZ", "object"=>"token", "card"=>{"id"=>"card_1HO5U3AGocA737x7sVKu0U0Q", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>12, "exp_year"=>2022, "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>"faker@gmail.com", "tokenization_method"=>nil}, "client_ip"=>"96.250.125.111", "created"=>1599328048, "email"=>"faker@gmail.com", "livemode"=>false, "type"=>"card", "used"=>false}, "addresses"=>{}, "amount"=>0, "donation"=>{}}
+Completed 500 Internal Server Error in 1185ms (ActiveRecord: 0.0ms | Allocations: 4248)
+
+
+  
+Stripe::InvalidRequestError (This value must be greater than or equal to 1.):
+  
+app/controllers/api/v1/donations_controller.rb:19:in `create'
+Started POST "/api/v1/donations" for ::1 at 2020-09-05 13:48:07 -0400
+Processing by Api::V1::DonationsController#create as JSON
+  Parameters: {"token"=>{"id"=>"tok_1HO5UfAGocA737x7IuRNEjfQ", "object"=>"token", "card"=>{"id"=>"card_1HO5UeAGocA737x7UQFEVGqZ", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>12, "exp_year"=>2022, "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>"faker@gmail.com", "tokenization_method"=>nil}, "client_ip"=>"96.250.125.111", "created"=>1599328085, "email"=>"faker@gmail.com", "livemode"=>false, "type"=>"card", "used"=>false}, "addresses"=>{}, "amount"=>0, "donation"=>{}}
+Completed 500 Internal Server Error in 1201ms (ActiveRecord: 0.0ms | Allocations: 4215)
+
+
+  
+Stripe::InvalidRequestError (This value must be greater than or equal to 1.):
+  
+app/controllers/api/v1/donations_controller.rb:19:in `create'
+Started POST "/signup" for ::1 at 2020-09-05 13:50:28 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"nimi", "password"=>"[FILTERED]", "user"=>{"username"=>"nimi"}}
+[31mUnpermitted parameter: :user[0m
+  [1m[35m (12.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:3:in `create'
+  [1m[36mUser Create (21.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "nimi"], ["password_digest", "$2a$12$ZZp4ZY746po2mL6nMufP3ep9j8a2y.DXcnbJV.W.lp4GclLTnth5m"], ["created_at", "2020-09-05 17:50:29.143228"], ["updated_at", "2020-09-05 17:50:29.143228"]]
+  ↳ app/controllers/users_controller.rb:3:in `create'
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:3:in `create'
+Completed 200 OK in 327ms (Views: 0.3ms | ActiveRecord: 39.9ms | Allocations: 2587)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:51:29 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-05 13:51:44 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (10.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 24ms (Views: 11.0ms | ActiveRecord: 10.4ms | Allocations: 5549)
+
+
