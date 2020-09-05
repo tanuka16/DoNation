@@ -131,3 +131,375 @@ Processing by Api::V1::CharitiesController#index as */*
 Completed 200 OK in 211ms (Views: 193.9ms | ActiveRecord: 4.1ms | Allocations: 5610)
 
 
+DEPRECATION WARNING: warning: white_list_sanitizer isdeprecated, please use safe_list_sanitizer instead. (called from block in <module:ContentHelper> at /Users/tanuka_das/.rvm/gems/ruby-2.6.1/gems/actiontext-6.0.0.rc2/app/helpers/action_text/content_helper.rb:7)
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:35:26 -0400
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 77ms (Views: 34.4ms | ActiveRecord: 36.1ms | Allocations: 13328)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:37:16 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 1.6ms | Allocations: 5565)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:38:03 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 1.3ms | Allocations: 5566)
+
+
+DEPRECATION WARNING: warning: white_list_sanitizer isdeprecated, please use safe_list_sanitizer instead. (called from block in <module:ContentHelper> at /Users/tanuka_das/.rvm/gems/ruby-2.6.1/gems/actiontext-6.0.0.rc2/app/helpers/action_text/content_helper.rb:7)
+Started GET "/charity" for ::1 at 2020-09-04 21:38:35 -0400
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/charity"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/charities" for ::1 at 2020-09-04 21:38:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/charities"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:39:17 -0400
+Processing by Api::V1::CharitiesController#index as HTML
+  [1m[36mCharity Load (2.0ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 38ms (Views: 21.2ms | ActiveRecord: 10.5ms | Allocations: 13407)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:39:23 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.8ms | Allocations: 5566)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:40:08 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.9ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 1.9ms | Allocations: 5565)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:41:15 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.7ms | Allocations: 5562)
+
+
+DEPRECATION WARNING: warning: white_list_sanitizer isdeprecated, please use safe_list_sanitizer instead. (called from block in <module:ContentHelper> at /Users/tanuka_das/.rvm/gems/ruby-2.6.1/gems/actiontext-6.0.0.rc2/app/helpers/action_text/content_helper.rb:7)
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:41:44 -0400
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 38ms (Views: 25.2ms | ActiveRecord: 8.4ms | Allocations: 13326)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:50:31 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 72ms (Views: 69.4ms | ActiveRecord: 1.7ms | Allocations: 5622)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:50:48 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (10.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 63ms (Views: 52.0ms | ActiveRecord: 10.8ms | Allocations: 5565)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:51:00 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.7ms | Allocations: 5565)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:51:53 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.8ms | Allocations: 5568)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:53:33 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.0ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 64ms (Views: 47.9ms | ActiveRecord: 1.0ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 21:55:27 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 1.8ms | Allocations: 5549)
+
+
+DEPRECATION WARNING: warning: white_list_sanitizer isdeprecated, please use safe_list_sanitizer instead. (called from block in <module:ContentHelper> at /Users/tanuka_das/.rvm/gems/ruby-2.6.1/gems/actiontext-6.0.0.rc2/app/helpers/action_text/content_helper.rb:7)
+Started GET "/login" for ::1 at 2020-09-04 22:29:37 -0400
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:29:47 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (5.2ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 166ms (Views: 102.6ms | ActiveRecord: 16.1ms | Allocations: 14070)
+
+
+Started GET "/login" for ::1 at 2020-09-04 22:36:34 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+DEPRECATION WARNING: warning: white_list_sanitizer isdeprecated, please use safe_list_sanitizer instead. (called from block in <module:ContentHelper> at /Users/tanuka_das/.rvm/gems/ruby-2.6.1/gems/actiontext-6.0.0.rc2/app/helpers/action_text/content_helper.rb:7)
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:39:10 -0400
+  [1m[35m (13.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CharitiesController#index as HTML
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 44ms (Views: 32.6ms | ActiveRecord: 8.0ms | Allocations: 13324)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:42:20 -0400
+Processing by Api::V1::CharitiesController#index as HTML
+  [1m[36mCharity Load (1.4ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 1.4ms | Allocations: 5564)
+
+
+DEPRECATION WARNING: warning: white_list_sanitizer isdeprecated, please use safe_list_sanitizer instead. (called from block in <module:ContentHelper> at /Users/tanuka_das/.rvm/gems/ruby-2.6.1/gems/actiontext-6.0.0.rc2/app/helpers/action_text/content_helper.rb:7)
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:45:37 -0400
+  [1m[35m (14.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 46ms (Views: 33.1ms | ActiveRecord: 9.3ms | Allocations: 13326)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:46:00 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.6ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.6ms | Allocations: 5565)
+
+
+Started POST "/login" for ::1 at 2020-09-04 22:46:53 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"romi", "password"=>"[FILTERED]", "auth"=>{"username"=>"romi", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (51.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "romi"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+Completed 200 OK in 631ms (Views: 0.8ms | ActiveRecord: 64.7ms | Allocations: 6132)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:48:11 -0400
+Started GET "/profile" for ::1 at 2020-09-04 22:48:11 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.3ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 115ms (Views: 110.3ms | ActiveRecord: 1.3ms | Allocations: 5649)
+
+
+Processing by UsersController#profile as */*
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `current_user'
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 2.1ms | Allocations: 1003)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:49:02 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (2.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 2.7ms | Allocations: 5550)
+
+
+Started POST "/login" for ::1 at 2020-09-04 22:49:10 -0400
+Processing by AuthController#create as JSON
+  Parameters: {"username"=>"romi", "password"=>"[FILTERED]", "auth"=>{"username"=>"romi", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "romi"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:3:in `create'
+Completed 200 OK in 307ms (Views: 2.5ms | ActiveRecord: 1.3ms | Allocations: 839)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:49:48 -0400
+Started GET "/profile" for ::1 at 2020-09-04 22:49:48 -0400
+Processing by Api::V1::CharitiesController#index as */*
+Processing by UsersController#profile as */*
+  [1m[36mCharity Load (1.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 1.8ms | Allocations: 5897)
+
+
+  [1m[36mUser Load (10.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `current_user'
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 10.4ms | Allocations: 6456)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:50:55 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (1.1ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 1.1ms | Allocations: 5549)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:51:32 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.7ms | Allocations: 5549)
+
+
+Started POST "/signup" for ::1 at 2020-09-04 22:51:40 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"gam", "password"=>"[FILTERED]", "user"=>{"username"=>"gam"}}
+[31mUnpermitted parameter: :user[0m
+  [1m[35m (16.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:3:in `create'
+  [1m[36mUser Create (47.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "gam"], ["password_digest", "$2a$12$APgpx4hDrI2Y7k1ChPmalO7Lh/WLE2bGHUuxZFXAiWzjhLCdpJY2K"], ["created_at", "2020-09-05 02:51:40.843248"], ["updated_at", "2020-09-05 02:51:40.843248"]]
+  ↳ app/controllers/users_controller.rb:3:in `create'
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:3:in `create'
+Completed 200 OK in 348ms (Views: 1.0ms | ActiveRecord: 70.6ms | Allocations: 2886)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:53:04 -0400
+Started GET "/profile" for ::1 at 2020-09-04 22:53:04 -0400
+Processing by Api::V1::CharitiesController#index as */*
+Processing by UsersController#profile as */*
+  [1m[36mCharity Load (3.1ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `current_user'
+Completed 200 OK in 32ms (Views: 26.3ms | ActiveRecord: 3.1ms | Allocations: 5741)
+
+
+Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 3.1ms | Allocations: 6274)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:53:57 -0400
+Started GET "/profile" for ::1 at 2020-09-04 22:53:57 -0400
+Processing by Api::V1::CharitiesController#index as */*
+Processing by UsersController#profile as */*
+  [1m[36mCharity Load (1.1ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 1.1ms | Allocations: 5737)
+
+
+  ↳ app/controllers/application_controller.rb:22:in `current_user'
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 1.7ms | Allocations: 6452)
+
+
+Started POST "/api/v1/donations" for ::1 at 2020-09-04 22:54:07 -0400
+Processing by Api::V1::DonationsController#create as JSON
+  Parameters: {"token"=>{"id"=>"tok_1HNrXUAGocA737x7R6b1PJlr", "object"=>"token", "card"=>{"id"=>"card_1HNrXUAGocA737x77PzHrFok", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>12, "exp_year"=>2022, "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>"faker@gmail.com", "tokenization_method"=>nil}, "client_ip"=>"96.250.125.111", "created"=>1599274444, "email"=>"faker@gmail.com", "livemode"=>false, "type"=>"card", "used"=>false}, "addresses"=>{}, "amount"=>100, "donation"=>{}}
+Completed 200 OK in 1866ms (Views: 0.3ms | ActiveRecord: 8.7ms | Allocations: 14286)
+
+
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 22:55:09 -0400
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (0.8ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.8ms | Allocations: 5549)
+
+
