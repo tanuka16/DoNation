@@ -503,3 +503,17 @@ Processing by Api::V1::CharitiesController#index as */*
 Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.8ms | Allocations: 5549)
 
 
+Started GET "/api/v1/charities" for ::1 at 2020-09-04 23:19:02 -0400
+Started GET "/profile" for ::1 at 2020-09-04 23:19:02 -0400
+Processing by UsersController#profile as */*
+Processing by Api::V1::CharitiesController#index as */*
+  [1m[36mCharity Load (3.7ms)[0m  [1m[34mSELECT "charities".* FROM "charities"[0m
+  ↳ app/controllers/api/v1/charities_controller.rb:6:in `index'
+Completed 200 OK in 30ms (Views: 24.4ms | ActiveRecord: 3.7ms | Allocations: 5786)
+
+
+  [1m[36mUser Load (16.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `current_user'
+Completed 200 OK in 36ms (Views: 0.8ms | ActiveRecord: 17.0ms | Allocations: 6651)
+
+
